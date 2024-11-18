@@ -2,6 +2,8 @@
 import './styles/App.css';
 import { useState } from 'react';
 import { makeRequest } from './api/api';
+import './styles/reset.css';
+
 import SideMenu from './components/SideMenu/SideMenu';
 function App() {
   return (
